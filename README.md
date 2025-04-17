@@ -1,10 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Payment Gateway UI
+A modern, responsive payment gateway interface built with Next.js and TypeScript. This project demonstrates a clean UI design and leverages best practices in frontend development.
 
-## Getting Started
+🚀 Features
+Next.js 14 with App Router
 
-First, run the development server:
+TypeScript for type safety
 
-```bash
+Tailwind CSS for utility-first styling
+
+Geist font integration via next/font
+
+Modular components for scalability
+
+Live deployment: payment-gateway-ui-six.vercel.app
+
+🛠️ Getting Started
+Prerequisites
+Ensure you have the following installed:
+
+Node.js (v18 or later)
+
+npm, yarn, pnpm, or bun
+
+Installation
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/prashantbisht2006/Payment-Gateway-UI.git
+cd Payment-Gateway-UI
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+# or
+yarn install
+# or
+pnpm install
+# or
+bun install
+Start the development server:
+
+bash
+Copy
+Edit
 npm run dev
 # or
 yarn dev
@@ -12,25 +54,25 @@ yarn dev
 pnpm dev
 # or
 bun dev
-```
+Open http://localhost:3000 in your browser to view the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Project Structure
+app/ – Main application logic and routing
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+components/ – Reusable UI components
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+lib/ – Utility functions and helpers
 
-## Learn More
+public/ – Static assets
 
-To learn more about Next.js, take a look at the following resources:
+styles/ – Global styles and Tailwind configuration
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📦 Dependencies
+Next.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Tailwind CSS
 
-## Deploy on Vercel
+Geist Font
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📄 License
+This project is licensed under the MIT License.
